@@ -4,17 +4,17 @@ let listOfUser = [
     {name: "Bob Johnson", phone: "8367 297 745", email: "bob.johnson@example.com"}
 ]
 
-function showList(when) {
-    console.log(when, listOfUser);
+function showList() {
+    console.log(listOfUser);
 }
 
 
-showList("Before update");
+showList();
 
 let newUser = {name: "Maisie Haley", phone: "0913 531 3030", email: "risus.Quisque@urna.ca"}
 listOfUser.push(newUser);
 
-showList("After update");
+showList();
 
 //first user.
 console.log("First Contact", listOfUser[0]);
